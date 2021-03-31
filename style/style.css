@@ -1,0 +1,492 @@
+@font-face {
+	font-family: "My Custom Font";
+	src: url(font/Inter-VariableFont_slnt,wght.ttf) format("truetype");
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+.part1{
+    margin: 0;
+    background-color: #de2b24;
+    color: white;
+    padding-bottom: 100px;
+}
+.part2{
+    margin: 0;
+    background-color: #1c8adb;
+    color: white;
+    height: 900px;
+}
+.part3{
+    margin: 0;
+    background-color: #2a2a2a;
+    color: white;
+    height: 550px;
+}
+.footer{
+    margin: 0;
+    background-color: #515151;
+    color: white;
+    height: 65px;
+}
+.title{
+    padding-top: 80px;
+    text-align:center;
+    margin-bottom: 50px;
+}
+.title h3 {
+    margin: 0;
+    padding-bottom: 0;
+    font-size: 2em;
+
+}
+.title p {
+    margin-top: 5px;
+    padding: 2px;
+
+
+}
+
+.contents{
+    display: flex;
+    justify-content: center;
+
+}
+.squaretext{
+
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 255px;
+    height: 255px;
+}
+.squareimg{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 255px;
+    height: 255px;
+}
+.image{
+    width: 255px;
+    height: 255px;
+    object-fit: cover;
+    transition: 1s;
+
+}
+.icon{
+    margin:85px 150px 0px 110px;
+    
+}
+.squaretext h4, p{
+    text-align:center;
+
+
+}
+.squaretext h4{
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 1px;
+
+}
+
+.squaretext p{
+    margin: 0px;
+
+}
+.image:hover{
+    transform: scale(1.2);
+    
+    object-fit: cover;
+
+}
+.squaretext h4:hover{
+    transform: scale(1.2);
+
+}
+
+.squaretext p:hover{
+    transform: scale(1.2);
+
+}
+.icon:hover{
+    transform: scale(1.2);
+
+}
+.icon1{
+    height: 65px;
+    width: 65px;
+}
+.fig {
+    text-align: center; 
+    margin-bottom: 0px;
+   }
+.form{
+    height: 450px;
+    background-color:white;
+    border-radius: 3px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.tr{
+    margin: auto;
+    margin-top: -40px;
+    width: 0;
+    height: 0;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 3.5em 3.5em 3.5em 3.5em; 
+    border-color: transparent transparent white transparent;  
+}
+.cancel{
+    width: 45px;
+    height: 45px;
+    border-radius:50%;
+    background-color:red;
+    border:  white;
+    border: 2px solid white;
+    float: right;
+    margin-top: -20px;
+    margin-right: -40px;
+}
+.icon2{
+    height: 20px;
+    width: 20px;
+    margin-left: 12.5px;
+    margin-top: 12.5px;
+}
+.text{
+    width: 730px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 50px;
+    color: #9a9a9a;
+}
+.field{
+    text-align:center;
+    margin-top: 5px;
+}
+.lol{
+    margin-top: 35px;
+}
+.field input{
+    width: 440px;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid  rgba(73, 71, 71, 0.3);
+    outline: none;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.field input:focus {
+    border: 1px solid #1287bf;
+    box-shadow: 0 0 5px rgba(18,135,191,0.5)
+  }
+
+input::placeholder {
+    color: #bbbbbb;
+
+  }
+  .button{
+    text-align:center;
+    margin-top: 20px;
+}
+  .button input{
+    width: 160px;
+    height: 50px;
+    background-color:#de2b24;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color:white;
+    cursor: pointer;
+
+}
+
+.button input:hover{
+
+    background-color:#d4120c;
+    transition: 0.5s;
+
+}
+
+.soial{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.soialicon{
+    width: 45px;
+    height: 45px;
+    border: 3px solid #515151;
+    border-radius:3px;
+    margin-left: 20px;
+}
+.faicon{
+    display: block;
+    margin: 26%;
+}
+.soialicon:hover{
+    transition: 0.7s;
+
+    border: 3px solid #de2b24;
+    cursor: pointer;
+
+}
+.disc{
+    margin-top: 45px;
+    color:#cecece;
+}
+.email{
+    text-align:center;
+    margin-top: 5px;
+}
+.button1{
+    text-align:center;
+    margin-top: 15px;
+}
+
+.email input{
+    width: 850px;
+    height: 50px;
+    background-color:#515151;
+    border-radius: 3px;
+    border: 1px solid  rgba(73, 71, 71, 0.3);
+    outline: none;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    color: white;
+}
+
+.button1 input{
+    width: 160px;
+    height: 50px;
+    background-color:#2a2a2a;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border: 2px solid  #515151;
+    outline: none;
+    border-radius: 3px;
+    color:white;
+    cursor: pointer;
+
+}
+
+.button1 input:hover{
+
+    background-color:#515151;
+    transition: 0.5s;
+
+}
+.foo{
+    margin: 0;
+    padding-top: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media  screen and (max-width: 550px) {
+
+    .contents{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 70px;
+    }
+   
+    .icon1{
+        height: 65px;
+        width: 65px;
+    }
+    .fig {
+        text-align: center; 
+        margin-bottom: 0px;
+       }
+    .form{
+        background-color:white;
+        border-radius: 3px;
+
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tr{
+        margin: auto;
+        margin-top: -40px;
+        width: 0;
+        height: 0;
+        border-radius: 1px;
+        border-style: solid;
+        border-width: 3em 3em 3em 3em; 
+        border-color: transparent transparent white transparent;  
+    }
+    .cancel{
+        width: 45px;
+        height: 45px;
+        border-radius:50%;
+        background-color:red;
+        border:  white;
+        border: 2px solid white;
+        float: right;
+        margin-top: -20px;
+        margin-right: -25px;
+    }
+   
+    .text{
+        width: 300px;
+        text-align: center;
+        margin: auto;
+        margin-top: 0px;
+        padding-top: 50px;
+        color: #9a9a9a;
+    }
+
+    .field input{
+        width: 300px;
+        height: 50px;
+        border-radius: 3px;
+        border: 1px solid  rgba(73, 71, 71, 0.3);
+        outline: none;
+        margin-bottom: 10px;
+        padding-left: 20px;
+    }
+    
+
+   
+    .disc{
+        margin-top: 45px;
+        color:#cecece;
+    }
+    .email{
+        text-align:center;
+        margin-top: 5px;
+    }
+    .button1{
+        text-align:center;
+        margin-top: 15px;
+    }
+    
+    .email input{
+        width: 300px;
+        height: 50px;
+        background-color:#515151;
+        border-radius: 3px;
+        border: 1px solid  rgba(73, 71, 71, 0.3);
+        outline: none;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        color: white;
+    }
+    
+    
+}
+@media (min-width: 650px) and (max-width: 1200px)  {
+    .contents{
+        display: flex;
+        flex-wrap:wrap;
+        width: 600px;
+        margin: auto;
+    }
+    
+   
+    .icon1{
+        height: 65px;
+        width: 65px;
+    }
+    .fig {
+        text-align: center; 
+        margin-bottom: 0px;
+       }
+    .form{
+        height: 450px;
+        background-color:white;
+        border-radius: 3px;
+
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tr{
+        margin: auto;
+        margin-top: -40px;
+        width: 0;
+        height: 0;
+        border-radius: 1px;
+        border-style: solid;
+        border-width: 3.2em 3.2em 3.2em 3.2em; 
+        border-color: transparent transparent white transparent;  
+    }
+    .cancel{
+        width: 45px;
+        height: 45px;
+        border-radius:50%;
+        background-color:red;
+        border:  white;
+        border: 2px solid white;
+        float: right;
+        margin-top: -20px;
+        margin-right: -40px;
+    }
+   
+    .text{
+        width: 450px;
+        text-align: center;
+        margin: auto;
+        margin-top: 0px;
+        padding-top: 50px;
+        color: #9a9a9a;
+    }
+
+    .field input{
+        width: 450px;
+        height: 50px;
+        border-radius: 3px;
+        border: 1px solid  rgba(73, 71, 71, 0.3);
+        outline: none;
+        margin-bottom: 10px;
+        padding-left: 20px;
+    }
+    
+
+   
+    .disc{
+        margin-top: 45px;
+        color:#cecece;
+    }
+    .email{
+        text-align:center;
+        margin-top: 5px;
+    }
+    .button1{
+        text-align:center;
+        margin-top: 15px;
+    }
+    
+    .email input{
+        width: 450px;
+        height: 50px;
+        background-color:#515151;
+        border-radius: 3px;
+        border: 1px solid  rgba(73, 71, 71, 0.3);
+        outline: none;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        color: white;
+    }
+    
+}
+
